@@ -1,0 +1,6 @@
+[project]
+name = "dead-hand"
+requirements = []
+[contracts.dead-hand]
+path = "contracts/dead-hand.clar"
+depends_on = []
