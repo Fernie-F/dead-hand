@@ -1,6 +1,32 @@
 [project]
 name = "dead-hand"
-requirements = []
+
+[[project.requirements]]
+contract_id = "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.citycoin-core-trait"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.citycoin-token-trait"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.miamicoin-auth"
+
+[[project.requirements]]
+contract_id = "SP466FNC0P7JWTNM2R9T199QRZN1MYEDTAR0KP27.miamicoin-token"
 [contracts.dead-hand]
 path = "contracts/dead-hand.clar"
+depends_on = []
+
+[contracts.test-token]
+path = "contracts/test-token.clar"
+depends_on = []
+
+[contracts.test-token-1]
+path = "contracts/test-token-1.clar"
+depends_on = []
+
+[contracts.test-token-2]
+path = "contracts/test-token-2.clar"
 depends_on = []
